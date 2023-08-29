@@ -1,19 +1,17 @@
 body {
     display: grid; 
-    grid-template-columns: 0.8fr 0.9fr; 
-    grid-template-rows: 1fr; 
-    column-gap: 0px; 
-    grid-template-areas: 
-    "."; 
-  grid-area: 1 / 1 / 2 / 2; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1.1fr 1fr 1fr; 
+    grid-template-rows: 1.1fr; 
+    gap: 0px 0px; 
 }
 .gridone {
-    grid-area: 1 / 1;
+    grid-area: 1 / 2 / 2 / 3;
     background-color: rgba(246, 229, 229, 0.885);
 }
 
 .gridtwo {
-    grid-area: 1 / 2;
+    grid-area: 1 / 3 / 2 / 4;
     background-color: rgb(167, 116, 116);
 }
 #imgone { 
